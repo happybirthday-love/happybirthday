@@ -5,6 +5,25 @@
         <!-- <meta name="viewport" content="width=1024"> -->
         <!-- <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" /> -->
         <title>Birthday Gift</title>
+        <script type="text/javascript">
+
+            function init() {
+
+                var myAudio = document.getElementById("audio");
+
+                myAudio.addEventListener('ended', loopAudio, false);
+
+            }
+
+            function loopAudio() {
+
+                var myAudio = document.getElementById("audio");
+
+                myAudio.play();
+
+            }
+
+    </script>
 
         <!-- Link CSS Style.css file-->
 
@@ -91,7 +110,7 @@
 
         <script src="js/index.js"></script>
         <audio autoplay loop>
-            <source src="music/(1497) Jon Bellion ft. Travis Mendes - Guillotine (Official Audio) - YouTube.MP3">
+            <source id="audio" src="music/Jon Bellion ft. Travis Mendes - Guillotine.MP3">
         </audio>
     </body>
 </html>
