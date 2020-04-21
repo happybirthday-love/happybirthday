@@ -430,20 +430,20 @@ div#sea {
     left: 30px;
   }
 
-@media only screen and (max-width:800px) {
+/*@media only screen and (max-width:800px) {*/
   /* For tablets: */
-  .main {
+  /*.main {
     width: 80%;
     padding: 0;
   }
   .right {
     width: 100%;
   }
-}
+}*/
 
-@media only screen and (max-width:500px) {
+/*@media only screen and (max-width:500px) {*/
   /* For mobile phones: */
-  .row .merrywrap div#beach {
+  /*.row .merrywrap div#beach {
     width: 100%;
     align-content: center;
   }
@@ -456,7 +456,7 @@ div#sea {
     background-repeat: no-repeat;
     width: 159%;
 }
-}
+}*/
 
 
   .icons .row span {
