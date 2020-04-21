@@ -443,11 +443,21 @@ div#sea {
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .row .merrywrap .step-4 {
+  .row .merrywrap div#beach {
     width: 100%;
     align-content: center;
   }
+
+   div#beach, canvas#canvas {
+    background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
+    background-size: cover;
+    background-position: bottom right;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    width: 159%;
 }
+}
+
 
   .icons .row span {
     font-size: 56px;
